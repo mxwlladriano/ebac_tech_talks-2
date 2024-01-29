@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <header class="hero">
@@ -37,8 +38,8 @@
         </div>
     </header>
 
-    <section class="event">
-        <div class="container">
+    <section class="event event--frontend">
+        <div class="container" data-aos="fade-right">
             <div class="event__details">
                 <h2 class="event__details__title">Front-end</h2>
                 <p class="event__details__description">
@@ -49,6 +50,43 @@
         </div>
     </section>
 
+    <section class="event event--ux-ui">
+        <div class="container" data-aos="fade-left">
+            <img class="event__image" src="./images/backend.png" alt="Front-end">
+        <div class="event__ux-ui">
+            <h2 class="event__details__title">Back-end</h2>
+            <p class="event__details__description">
+                Lorem velit, aliquid repudiandae corporis expedita sint debitis Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, ad expedita odio autem quae nostrum sed reiciendis error culpa itaque quo quidem distinctio magni maiores, incidunt magnam voluptatum cupiditate voluptates Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo quod animi sit, doloremque atque quae voluptates. Inventore tempore accusamus necessitatibus quod, veritatis praesentium ipsa ea iure minima non repellat velit
+            </p>
+        </div>
+        </div>
+    </section>
+
+    <section class="event event--data-science">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Front-end</h2>
+                <p class="event__details__description">
+                    Lorem velit, aliquid repudiandae corporis expedita sint debitis Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, ad expedita odio autem quae nostrum sed reiciendis error culpa itaque quo quidem distinctio magni maiores, incidunt magnam voluptatum cupiditate voluptates Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo quod animi sit, doloremque atque quae voluptates. Inventore tempore accusamus necessitatibus quod, veritatis praesentium ipsa ea iure minima non repellat velit
+                </p>
+            </div>
+            <img class="event__image" src="./images/frontend.png" alt="Front-end">
+        </div>
+    </section>
+
+    <section class="event event--backend">
+        <div class="container" data-aos="fade-left">
+            <img class="event__image" src="./images/backend.png" alt="Front-end">
+        <div class="event__ux-ui">
+            <h2 class="event__details__title">Back-end</h2>
+            <p class="event__details__description">
+                Lorem velit, aliquid repudiandae corporis expedita sint debitis Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, ad expedita odio autem quae nostrum sed reiciendis error culpa itaque quo quidem distinctio magni maiores, incidunt magnam voluptatum cupiditate voluptates Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo quod animi sit, doloremque atque quae voluptates. Inventore tempore accusamus necessitatibus quod, veritatis praesentium ipsa ea iure minima non repellat velit
+            </p>
+        </div>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="scripts/main.js"></script>
 </body>
 </html>
